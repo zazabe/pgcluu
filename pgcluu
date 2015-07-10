@@ -8962,7 +8962,7 @@ ul#slides li div div {
 .panel-body { background-color: #ffffff; font-size: 1.2em;}
 .panel-footer { background-color: #f5f5f5}
 .panel-height { height: 300px}
-.panel-xlheight { height: 450px}
+.panel-xlheight { height: 450px; overflow-y: auto;}
 .btn { margin-top: 10px};
 .key-figures ul {
 	margin: 0;
@@ -9049,6 +9049,12 @@ ul#slides li div div {
     width: 50%; /* 6 columns */
   }
 }
+
+table td, table th {
+  max-width: 200px;
+  overflow: auto;
+}
+
 
 WRFILE: jquery.min.js
 /*
